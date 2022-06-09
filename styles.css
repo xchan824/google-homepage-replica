@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    height: 46px;
+    flex-direction: row-reverse;
+    padding: 6px;
+    border: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.links-1 a, .links-2 a {
+    color: black;
+    padding-left: 15px;
+    text-decoration: none;
+    font-size: 13px;
+}
